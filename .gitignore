@@ -1,0 +1,92 @@
+# ---- Python / Django / PySpark .gitignore ----
+# Bytecode / cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.env
+.venv
+venv/
+ENV/
+env/
+
+# Distribution / packaging
+build/
+dist/
+.eggs/
+*.egg-info/
+*.egg
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage*
+.cache/
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# Django related
+*.log
+local_settings.py
+media/
+staticfiles/
+staticroot/
+
+# SQLite database
+/db.sqlite3
+
+# Environment variables / secrets
+*.env
+.env.*
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# IDEs / Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS generated
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# PySpark / Spark
+spark-warehouse/
+.derby/
+.metastore/
+
+# Logs / temp
+logs/
+*.tmp
+*.temp
+*.log
+
+# PyCharm
+*.iml
+
+# Coverage reports
+coverage html/
+
+# Profiling
+.prof
+
+# Cache data
+*.parquet
+*.orc
+*.avro
+
+# Other
+*.bak

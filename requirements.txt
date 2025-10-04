@@ -1,0 +1,12 @@
+# Dependências principais do projeto
+# Fixe versões conforme necessidade de reprodutibilidade.
+# Para gerar versões exatas depois de instalar:  pip freeze > requirements.lock
+
+Django>=5.2,<5.3
+pyspark>=3.5,<3.6
+
+# Dependências opcionais sugeridas (descomente se for usar)
+# python-dotenv>=1.0  # Carregar variáveis de ambiente de um arquivo .env
+# pytest>=8.0         # Testes
+# pytest-django>=4.8  # Integração pytest com Django
+
