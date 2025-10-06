@@ -4,6 +4,9 @@
 
 Django>=5.2,<5.3
 pyspark>=3.5,<3.6
+pyarrow>=16,<19
+python-dotenv>=1,<2
+
 
 # Dependências opcionais sugeridas (descomente se for usar)
 # python-dotenv>=1.0  # Carregar variáveis de ambiente de um arquivo .env
